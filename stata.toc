@@ -1,0 +1,4 @@
+*************** stata.toc
+v 3
+d 'PENLOGIT': Penalized logistic regression
+p penlogit

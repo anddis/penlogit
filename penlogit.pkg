@@ -1,0 +1,22 @@
+*************** penlogit.toc
+d 'PENLOGIT': Penalized logistic regression
+d
+d penlogit estimates penalized logistic regression models 
+d for a binary response via data augmentation.
+d It allows the user to impose Normal and generalized log-F 
+d prior distributions on one or more model parameters (log odds-ratios).
+d
+d Distribution-Date: 20140901
+d
+d Authors:  A.Discacciati, N.Orsini
+d			 Karolinska Institutet, Stockholm, Sweden
+d			S.Greenland
+d			 University of California, Los Angeles, CA
+d
+d Support: email andrea.discacciati@ki.se
+d
+f penlogit.ado
+f penlogit.sthlp
+f neutra1978.dta
+f output.do
+f simulation.do
