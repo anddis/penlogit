@@ -2,7 +2,7 @@
 #### A Stata user-written command for penalized logistic regression
 
 - Current version: `1.1.0` 
-- Release date: `17jul2017`
+- Release date: `18jul2017`
 
 ---
 
