@@ -4,7 +4,7 @@ pllf2 is an adapted code of the -pllf- command by Royston
 
 *! 1.0.1 Discacciati A, Orsini N 21feb2014
 *! 1.0.2 Discacciati A, Orsini N 01sep2014
-
+*! 1.1.0 Discacciati A, Orsini N 19jul2017
 
 capture program drop penlogit
 program penlogit, eclass properties(mi) byable(onecall)
@@ -366,7 +366,13 @@ ereturn scalar ic = `ic'
 ereturn scalar k = `k'
 ereturn scalar converged = `converged'
 
-ereturn local predict "logit_p"	
+ereturn local vcetype = "OIM"
+ereturn local vce = "oim"
+ereturn local m = cond("`binomial'"!="", "`binomial'", "1")
+ereturn local varfunc = "glim_v2"
+ereturn local link = "glim_l02"
+ereturn local opt = "moptimize"
+ereturn local predict "glim_p"	
 if "`weight'" != "" {
 	ereturn local wexp = "`exp'"
 	ereturn local wtype = "fweight" 

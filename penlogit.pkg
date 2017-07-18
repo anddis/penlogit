@@ -6,7 +6,7 @@ d for a binary response via data augmentation.
 d It allows the user to impose Normal and generalized log-F 
 d prior distributions on one or more model parameters (log odds-ratios).
 d
-d Distribution-Date: 20140901
+d Distribution-Date: 20170718
 d
 d Authors:  A.Discacciati, N.Orsini
 d			 Karolinska Institutet, Stockholm, Sweden

@@ -1,6 +1,9 @@
 # penlogit
 #### A Stata user-written command for penalized logistic regression
-#### Version 1.0.2 (2014-09-01)
+
+- Current version: `1.1.0` 
+- Release date: `17jul2017`
+
 ---
 
 
