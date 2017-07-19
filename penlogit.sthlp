@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 1.1.0 18jul2017}{...}
+{* *! version 1.1.0 19jul2017}{...}
 {cmd:help penlogit}{right: ({browse "http://www.stata-journal.com/article.html?article=st0400":SJ15-3: st0400})}
 {hline}
 
@@ -180,9 +180,7 @@ and age at delivery{p_end}
 {synopt:{cmd:e(link)}}program to calculate link function{p_end}
 {synopt:{cmd:e(varfunc)}}program to calculate variance function{p_end}
 {synopt:{cmd:e(m)}}number of binomial trials{p_end}
-{synopt:{cmd:e(vce)}}{cmd:oim}; {it:vcetype}{p_end}
-{synopt:{cmd:e(vcetype)}}title used to label Std. Err.{p_end}
-
+{synopt:{cmd:e(cons)}}set if {cmd:noconstant} specified{p_end}
 
 {synoptset 15 tabbed}{...}
 {p2col 5 15 19 2: Matrices}{p_end}
